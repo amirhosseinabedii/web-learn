@@ -1,0 +1,102 @@
+.supermarket-amazings {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  .supermarket-amazings-center {
+    width: 90%;
+    height: inherit;
+    position: relative;
+    .supermarket-amazings-center-mainlink{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-image: url(../../images/svg/backgroundsupermarketamazings.svg);
+        background-color: #e2dcdcc7;
+        background-repeat: no-repeat;
+        text-decoration: none;
+        align-items: center;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+        gap: 20px;
+        padding: 10px 50px;
+        border-radius: 15px;
+        .supermarket-amazings-center-mainlink-img-1{
+            width: 66px;
+            height: 62px;
+        }
+        .supermarket-amazings-center-mainlink-img-2{
+            width: 250px;
+            height: 28px;
+        }
+        p{
+            height: fit-content;
+            line-height: 25px;
+            border-radius: 9999px;
+            font-family: var(--fontfamilyM);
+            background-color: #029A49;
+            font-size: 10px;
+            color: whitesmoke;
+            padding: 0px 5px;
+        }
+    }
+    .supermarket-amazings-center-circle-link{
+        width:  492px;
+        height: 74px;
+
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        top:-90px;
+        right: 1000px;
+        .supermarket-amazings-center-circle-link-item{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            width: 58px;
+            height: 58px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: relative;
+            text-decoration: none;
+            img{
+                width: 58px;
+                height: 58px;
+                border-radius: 50%;
+                position:relative;
+            }
+            .img-btn-circle{
+                font-family: var(--fontfamilyM);
+                font-size: 12px;
+                background-color: #d71616;
+                position: absolute;
+                right: -5px;
+                bottom: -5px;
+                color: whitesmoke;
+                padding: 0px 7px;
+                border-radius: 9999px;
+                line-height: 20px;
+            }
+        }
+    }
+    .supermarket-amazings-center-btn{
+        display: flex;
+        align-items: center;
+        background-color: whitesmoke;
+        color: #239C49;
+        border-radius: 9999px;
+        position: absolute;
+        padding: 10px 10px;
+        top: 40px;
+        left: 50px;
+        font-family: var(--fontfamilyM);
+        font-size: 14px;
+        gap: 10px;
+    }
+  }
+}

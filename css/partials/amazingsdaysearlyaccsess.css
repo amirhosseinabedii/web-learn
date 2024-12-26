@@ -1,0 +1,109 @@
+.amazingsdays-early-accsess{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .amazingsdays-early-accsess-center{
+        width: 90%;
+        height: inherit;
+
+        .amazingsdays-early-accsess-center-main-link{
+            border-radius: 15px;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-color: #e2dcdcc7;
+            text-decoration: none;
+            justify-content: flex-start;
+            align-items: center;
+            .amazingsdays-early-accsess-center-main-link-right{
+                width: 60%;
+                height: inherit;
+
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                img{
+                    width: 450px;
+                    height: 72px;
+                    margin-right: 20px;
+                }
+            }
+            .amazingsdays-early-accsess-center-main-link-left{
+                width: 40%;
+                height: inherit;
+
+                .amazingsdays-early-accsess-center-main-link-left-top{
+                    width: 100%;
+                    height: 40px;
+                    padding-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    font-family: var(--fontfamilyM);
+                    font-size: 16px;
+                    color: #B22EA4;
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                .amazingsdays-early-accsess-center-main-link-left-bottom{
+                    width: 100%;
+                    height: 70px;
+
+                    display: flex;
+                    align-items: center;
+                    gap: 60px;
+                    .amazingsdays-early-accsess-center-main-link-left-bottom-clock{
+                        width: 30%;
+                        height: inherit;
+                        margin-right: 240px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-flow: row-reverse;
+                        gap: 10px;
+                        .amazingsdays-early-accsess-center-main-link-left-bottom-clock-hours,.amazingsdays-early-accsess-center-main-link-left-bottom-clock-minuts,.amazingsdays-early-accsess-center-main-link-left-bottom-clock-seconds{
+                            width: 35px;
+                            height: 35px;
+                            background-color: whitesmoke;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            justify-content: center;
+                            border-radius: 5px;
+                            padding: 20px;
+
+                        }
+                        .clock , .minuts , .seconds{
+                            font-family: var(--fontfamilyM);
+                            font-size: 12px;
+                            color: #B12BB2;
+                        }
+                        .minuts1,.clock1,.seconds1{
+                            font-family: var(--fontfamilyM);
+                            font-size: 10px;
+                            color: #B12BB2;
+                        }
+                    }
+                    .amazingsdays-early-accsess-center-main-link-left-bottom-btn{
+                        font-family: var(--fontfamilyM);
+                        font-size: 12px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                        color: #B22EA4;
+                        img{
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

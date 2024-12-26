@@ -1,0 +1,119 @@
+.discounts {
+  width: 100%;
+  height: 813px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .discounts-center {
+    width: 1336px;
+    height: inherit;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2b2b2b12;
+    border-radius: 15px;
+    column-gap: 0px;
+    .discounts-title {
+      font-family: var(--fontfamilyM);
+    }
+    .discounts-top,
+    .discounts-main,
+    .discounts-bottom {
+      width: inherit;
+      height: 260px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+
+      .discounts-bottom-items,
+      .discounts-main-items,
+      .discounts-top-items {
+        width: inherit;
+        height: 263px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        .discounts-item {
+          width: 218.41px;
+          height: inherit;
+          border-bottom: 1px solid #2b2b2b12;
+          border-left: 1px solid #2b2b2b12;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: center;
+          gap: 0px;
+          text-decoration: none;
+          color: black;
+          font-family: var(--fontfamilyM);
+          
+            
+          .item-img {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 160px;
+                height: 170px;
+            }
+          }
+          .item-price{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-top: 5px;
+            text-decoration: none;
+            .darsad{
+                width: 50%;
+                text-decoration: none;
+               
+                p{
+                    width: fit-content;
+                    background-color: #d32e2f;
+                    color: white;
+                    padding: 2px 10px 2px 10px;
+                    border-radius: 15px;
+                    font-size: 12px;
+                    margin-right: 7px;
+                }
+            }
+            .offprice{
+                width: 50%;
+                height: 34px;
+                display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            }
+
+          }
+          .org-price{
+            width: 100%;
+            height: 26px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: end;
+            justify-content: flex-end;
+            padding-left: 25px;
+            color: #2b2b2b60;
+            text-decoration: line-through;
+            margin-top: -10px;
+          
+            p{
+                font-size: 12px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
